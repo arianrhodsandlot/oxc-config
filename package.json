@@ -13,9 +13,9 @@
   },
   "repository": "arianrhodsandlot/oxc-config",
   "type": "module",
-  "dependencies": {},
   "devDependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20260106.1",
+    "@arianrhodsandlot/release-kit": "0.1.12",
+    "@typescript/native-preview": "7.0.0-dev.20260107.1",
     "oxfmt": "0.23.0",
     "oxlint": "1.38.0",
     "oxlint-tsgolint": "0.10.1"
@@ -25,8 +25,8 @@
     "oxlint": "*"
   },
   "optionalDependencies": {
-    "@typescript/native-preview": "*",
-    "oxlint-tsgolint": "*"
+    "@typescript/native-preview": "7.0.0-dev.20260107.1",
+    "oxlint-tsgolint": "^0.10.1"
   },
   "packageManager": "pnpm@10.27.0"
 }
