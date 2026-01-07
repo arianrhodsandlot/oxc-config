@@ -1,0 +1,32 @@
+{
+  "name": "@arianrhodsandlot/oxc-config",
+  "description": "A set of predefined Oxc config.",
+  "keywords": [
+    "oxc",
+    "oxfmt",
+    "oxlint"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "arianrhodsandlot",
+    "email": "theguidanceofawhitetower@gmail.com"
+  },
+  "repository": "arianrhodsandlot/oxc-config",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260106.1",
+    "oxfmt": "0.23.0",
+    "oxlint": "1.38.0",
+    "oxlint-tsgolint": "0.10.1"
+  },
+  "peerDependencies": {
+    "oxfmt": "*",
+    "oxlint": "*"
+  },
+  "optionalDependencies": {
+    "@typescript/native-preview": "*",
+    "oxlint-tsgolint": "*"
+  },
+  "packageManager": "pnpm@10.27.0"
+}
