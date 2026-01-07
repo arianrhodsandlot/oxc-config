@@ -14,7 +14,7 @@
   "repository": "arianrhodsandlot/oxc-config",
   "type": "module",
   "devDependencies": {
-    "@arianrhodsandlot/release-kit": "0.1.12",
+    "@arianrhodsandlot/release-kit": "0.2.0",
     "@typescript/native-preview": "7.0.0-dev.20260107.1",
     "oxfmt": "0.23.0",
     "oxlint": "1.38.0",

@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@arianrhodsandlot/release-kit':
-        specifier: 0.1.12
-        version: 0.1.12
+        specifier: 0.2.0
+        version: 0.2.0
       oxfmt:
         specifier: 0.23.0
         version: 0.23.0
@@ -27,8 +27,9 @@ importers:
 
 packages:
 
-  '@arianrhodsandlot/release-kit@0.1.12':
-    resolution: {integrity: sha512-yurRnr7ML/ZyDZL1vv0vDsF9m41/D34n2cHlMlyOQjM1yEZYOF4c5E9MVKc6z4sX3jkRXa9Rluflmc/8Ok2zMw==}
+  '@arianrhodsandlot/release-kit@0.2.0':
+    resolution: {integrity: sha512-P6JsEaLcsVDKd6J7g4HyLxa6MiHNkEPlNo/8mbLY2W0cIWtwgf/nixXevDfOrjimOnZSAvb6QkXfE5tQowCvTA==}
+    engines: {node: '>=24.0.0'}
     hasBin: true
 
   '@oxfmt/darwin-arm64@0.23.0':
@@ -205,7 +206,7 @@ packages:
 
 snapshots:
 
-  '@arianrhodsandlot/release-kit@0.1.12': {}
+  '@arianrhodsandlot/release-kit@0.2.0': {}
 
   '@oxfmt/darwin-arm64@0.23.0':
     optional: true
