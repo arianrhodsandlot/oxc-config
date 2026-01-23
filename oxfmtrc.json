@@ -4,6 +4,7 @@
     "groups": [["builtin"], ["external"], ["internal"], ["subpath"], ["parent"], ["sibling"], ["index"], ["unknown"]],
     "newlinesBetween": false
   },
+  "experimentalTailwindcss": { "enabled": true, "functions": ["classnames", "clsx", "cn", "cva", "cx", "twMerge"] },
   "jsxSingleQuote": true,
   "printWidth": 120,
   "semi": false,
