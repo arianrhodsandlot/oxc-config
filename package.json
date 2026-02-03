@@ -15,18 +15,18 @@
   "type": "module",
   "devDependencies": {
     "@arianrhodsandlot/release-kit": "0.2.0",
-    "@typescript/native-preview": "7.0.0-dev.20260122.4",
-    "oxfmt": "0.26.0",
-    "oxlint": "1.41.0",
-    "oxlint-tsgolint": "0.10.1"
+    "@typescript/native-preview": "7.0.0-dev.20260203.1",
+    "oxfmt": "0.28.0",
+    "oxlint": "1.43.0",
+    "oxlint-tsgolint": "0.11.4"
   },
   "peerDependencies": {
     "oxfmt": "*",
     "oxlint": "*"
   },
   "optionalDependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20260122.4",
+    "@typescript/native-preview": "7.0.0-dev.20260203.1",
     "oxlint-tsgolint": "^0.11.1"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
