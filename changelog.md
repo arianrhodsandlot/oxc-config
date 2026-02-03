@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-02-03
+### Fixed
+- Disable some rules
+
 ## [1.1.0] - 2026-01-23
 ### Added
 - Enable tailwind class formatting
@@ -19,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
+[1.1.1]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/arianrhodsandlot/eslint-config/releases/tag/v0.1.0
