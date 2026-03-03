@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.3] - 2026-03-03
+### Fixed
+- Turn off promise/always-return
+
 ## [1.1.2] - 2026-02-25
 ### Fixed
 - Turn off some typeaware rules
@@ -27,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
+[1.1.3]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/arianrhodsandlot/eslint-config/compare/v1.0.1...v1.1.0
