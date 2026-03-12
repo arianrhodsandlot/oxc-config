@@ -15,6 +15,9 @@
     "es2026": true,
     "node": true
   },
+  "globals": {
+    "Astro": "readonly"
+  },
   "ignorePatterns": [
     "dist",
     "node_modules"
@@ -58,6 +61,7 @@
       "error",
       "declaration"
     ],
+    "guard-for-in": "off",
     "id-length": "off",
     "import/consistent-type-specifier-style": "off",
     "import/exports-last": "off",
@@ -77,6 +81,7 @@
     "max-lines": "off",
     "max-lines-per-function": "off",
     "max-statements": "off",
+    "new-cap": "off",
     "no-alert": "off",
     "no-await-in-loop": "off",
     "no-console": [
@@ -100,9 +105,11 @@
         "allowEmptyCatch": true
       }
     ],
+    "no-eval": "off",
     "no-inline-comments": "off",
     "no-magic-numbers": "off",
     "no-namespace": "off",
+    "no-new-func": "off",
     "no-param-reassign": "off",
     "no-shadow": "off",
     "no-ternary": "off",
@@ -189,6 +196,7 @@
         "ignoreIIFE": true
       }
     ],
+    "typescript/no-implied-eval": "off",
     "typescript/no-misused-promises": "off",
     "typescript/no-misused-spread": "off",
     "typescript/no-unnecessary-condition": "off",
@@ -208,6 +216,8 @@
     "typescript/strict-boolean-expressions": "off",
     "typescript/strict-void-return": "off",
     "typescript/switch-exhaustiveness-check": "off",
+    "typescript/triple-slash-reference": "off",
+    "typescript/unbound-method": "off",
     "unicorn/explicit-length-check": "off",
     "unicorn/no-null": "off",
     "unicorn/no-process-exit": "off",
