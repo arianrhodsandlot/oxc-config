@@ -13,10 +13,8 @@
     "browser": true,
     "builtin": true,
     "es2026": true,
-    "node": true
-  },
-  "globals": {
-    "Astro": "readonly"
+    "node": true,
+    "worker": true
   },
   "ignorePatterns": [
     "dist",
@@ -227,7 +225,7 @@
         "checkArguments": false
       }
     ],
-    "unicorn/number-literal-case": "error",
+    "unicorn/number-literal-case": "off",
     "unicorn/prefer-top-level-await": "off",
     "unicorn/switch-case-braces": [
       "error",
