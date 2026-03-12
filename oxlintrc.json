@@ -227,6 +227,7 @@
         "checkArguments": false
       }
     ],
+    "unicorn/number-literal-case": "error",
     "unicorn/prefer-top-level-await": "off",
     "unicorn/switch-case-braces": [
       "error",
