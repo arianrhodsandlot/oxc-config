@@ -16,49 +16,28 @@
     "node": true,
     "worker": true
   },
-  "ignorePatterns": [
-    "dist",
-    "node_modules"
-  ],
+  "ignorePatterns": ["dist", "node_modules"],
   "overrides": [
     {
-      "files": [
-        "*.{jsx,tsx}"
-      ],
+      "files": ["*.{jsx,tsx}"],
       "rules": {
         "unicorn/no-useless-undefined": "off"
       }
     },
     {
-      "files": [
-        "tests/**/*.ts"
-      ],
+      "files": ["tests/**/*.ts"],
       "rules": {
         "no-unused-vars": "off",
         "react-hooks/rules-of-hooks": "off"
       }
     }
   ],
-  "plugins": [
-    "eslint",
-    "typescript",
-    "unicorn",
-    "react",
-    "react-perf",
-    "oxc",
-    "import",
-    "jsx-a11y",
-    "node",
-    "promise"
-  ],
+  "plugins": ["eslint", "typescript", "unicorn", "react", "react-perf", "oxc", "import", "jsx-a11y", "node", "promise"],
   "rules": {
     "capitalized-comments": "off",
     "complexity": "off",
     "default-case": "off",
-    "func-style": [
-      "error",
-      "declaration"
-    ],
+    "func-style": ["error", "declaration"],
     "guard-for-in": "off",
     "id-length": "off",
     "import/consistent-type-specifier-style": "off",
@@ -85,14 +64,7 @@
     "no-console": [
       "error",
       {
-        "allow": [
-          "info",
-          "table",
-          "assert",
-          "warn",
-          "error",
-          "trace"
-        ]
+        "allow": ["info", "table", "assert", "warn", "error", "trace"]
       }
     ],
     "no-continue": "off",
@@ -148,10 +120,7 @@
       "error",
       {
         "allow": "as-needed",
-        "extensions": [
-          ".tsx",
-          ".jsx"
-        ],
+        "extensions": [".tsx", ".jsx"],
         "ignoreFilesWithoutCode": true
       }
     ],
@@ -165,9 +134,7 @@
     "react/no-unknown-property": [
       "error",
       {
-        "ignore": [
-          "prefix"
-        ]
+        "ignore": ["prefix"]
       }
     ],
     "react/only-export-components": "off",
@@ -227,9 +194,6 @@
     ],
     "unicorn/number-literal-case": "off",
     "unicorn/prefer-top-level-await": "off",
-    "unicorn/switch-case-braces": [
-      "error",
-      "avoid"
-    ]
+    "unicorn/switch-case-braces": ["error", "avoid"]
   }
 }
