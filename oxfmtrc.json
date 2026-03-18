@@ -12,5 +12,8 @@
     "enabled": true,
     "functions": ["classnames", "clsx", "cn", "cva", "cx", "twMerge"]
   },
+  "sortPackageJson": {
+    "sortScripts": true
+  },
   "tabWidth": 2
 }
