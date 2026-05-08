@@ -17,7 +17,7 @@ jobs:
       - run: npx -y @arianrhodsandlot/release-kit release-notes --version ${{ github.ref_name }}
       - run: npm version from-git --no-git-tag-version
       - run: npm publish --no-git-checks --access=public
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
           body_path: ./release-notes.md
