@@ -151,6 +151,7 @@
     ],
     "typescript/consistent-return": "off",
     "typescript/explicit-function-return-type": "off",
+    "typescript/explicit-member-accessibility": ["error", { "accessibility": "no-public" }],
     "typescript/explicit-module-boundary-types": "off",
     "typescript/no-base-to-string": "off",
     "typescript/no-confusing-void-expression": "off",
