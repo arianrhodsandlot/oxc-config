@@ -115,6 +115,7 @@
     "react-perf/jsx-no-new-array-as-prop": "off",
     "react-perf/jsx-no-new-function-as-prop": "off",
     "react-perf/jsx-no-new-object-as-prop": "off",
+    "react/forbid-component-props": "off",
     "react/iframe-missing-sandbox": "off",
     "react/jsx-filename-extension": [
       "error",
