@@ -86,6 +86,7 @@
     "no-throw-literal": "off",
     "no-undefined": "off",
     "no-use-before-define": "off",
+    "node/callback-return": "off",
     "node/no-process-env": "off",
     "oxc/no-async-await": "off",
     "oxc/no-optional-chaining": "off",
