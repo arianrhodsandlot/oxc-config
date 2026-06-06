@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.5] - 2026-06-06
+### Fixed
+- Disable node/callback-return
+
 ## [1.2.4] - 2026-05-13
 ### Fixed
 - Disable react/forbid-component-props
@@ -63,6 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
+[1.2.5]: https://github.com/arianrhodsandlot/oxc-config/compare/v1.2.4...v1.2.5
 [1.2.4]: https://github.com/arianrhodsandlot/oxc-config/compare/v1.2.3...v1.2.4
 [1.2.3]: https://github.com/arianrhodsandlot/oxc-config/compare/v1.2.2...v1.2.3
 [1.2.2]: https://github.com/arianrhodsandlot/oxc-config/compare/v1.2.1...v1.2.2
