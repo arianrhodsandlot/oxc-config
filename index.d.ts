@@ -1,4 +1,4 @@
-declare const oxfmtrc: any
-declare const oxlintrc: any
+declare const oxfmtrc: any;
+declare const oxlintrc: any;
 
-export { oxfmtrc, oxlintrc }
+export { oxfmtrc, oxlintrc };

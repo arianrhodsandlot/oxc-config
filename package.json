@@ -6,6 +6,20 @@
     "oxfmt",
     "oxlint"
   ],
+  "bugs": {
+    "url": "https://github.com/arianrhodsandlot/oxc-config/issues",
+    "email": "theguidanceofawhitetower@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "arianrhodsandlot",
+    "email": "theguidanceofawhitetower@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianrhodsandlot/oxc-config.git"
+  },
+  "type": "module",
   "module": "./index.js",
   "types": "./index.d.ts",
   "exports": {
@@ -13,12 +27,5 @@
       "types": "./index.d.ts",
       "import": "./index.js"
     }
-  },
-  "license": "MIT",
-  "author": {
-    "name": "arianrhodsandlot",
-    "email": "theguidanceofawhitetower@gmail.com"
-  },
-  "repository": "arianrhodsandlot/oxc-config",
-  "type": "module"
+  }
 }
