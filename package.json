@@ -11,7 +11,10 @@
     "name": "arianrhodsandlot",
     "email": "theguidanceofawhitetower@gmail.com"
   },
-  "repository": "arianrhodsandlot/oxc-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianrhodsandlot/oxc-config.git"
+  },
   "files": [
     "index.js",
     "index.d.ts",
