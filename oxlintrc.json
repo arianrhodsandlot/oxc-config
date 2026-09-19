@@ -10,11 +10,13 @@
     "suspicious": "error"
   },
   "env": {
+    "astro": true,
     "browser": true,
     "builtin": true,
-    "es2026": true,
     "node": true,
-    "worker": true
+    "worker": true,
+    "serviceworker": true,
+    "svelte": true
   },
   "ignorePatterns": ["dist", "node_modules"],
   "overrides": [
@@ -49,12 +51,14 @@
     "import/no-named-export": "off",
     "import/no-nodejs-modules": "off",
     "import/no-relative-parent-imports": "off",
+    "import/no-anonymous-default-export": "off",
     "import/no-unassigned-import": "off",
     "import/prefer-default-export": "off",
     "import/unambiguous": "off",
     "init-declarations": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/no-autofocus": "off",
+    "jsx-no-literals": "off",
     "max-lines": "off",
     "max-lines-per-function": "off",
     "max-statements": "off",
@@ -89,6 +93,8 @@
     "node/callback-return": "off",
     "node/no-process-env": "off",
     "node/no-top-level-await": "off",
+    "node/no-sync": "off",
+    "one-var": "off",
     "oxc/no-async-await": "off",
     "oxc/no-optional-chaining": "off",
     "oxc/no-rest-spread-properties": "off",
@@ -142,6 +148,7 @@
     ],
     "react/only-export-components": "off",
     "react/react-in-jsx-scope": "off",
+    "react/todo": "off",
     "sort-imports": "off",
     "sort-keys": [
       "error",
@@ -154,7 +161,12 @@
     ],
     "typescript/consistent-return": "off",
     "typescript/explicit-function-return-type": "off",
-    "typescript/explicit-member-accessibility": ["error", { "accessibility": "no-public" }],
+    "typescript/explicit-member-accessibility": [
+      "error",
+      {
+        "accessibility": "no-public"
+      }
+    ],
     "typescript/explicit-module-boundary-types": "off",
     "typescript/no-base-to-string": "off",
     "typescript/no-confusing-void-expression": "off",
@@ -188,6 +200,7 @@
     "typescript/triple-slash-reference": "off",
     "typescript/unbound-method": "off",
     "unicorn/explicit-length-check": "off",
+    "unicorn/max-nested-calls": "off",
     "unicorn/no-null": "off",
     "unicorn/no-process-exit": "off",
     "unicorn/no-useless-undefined": [
@@ -197,6 +210,12 @@
       }
     ],
     "unicorn/number-literal-case": "off",
+    "unicorn/prefer-export-from": [
+      "error",
+      {
+        "checkUsedVariables": false
+      }
+    ],
     "unicorn/prefer-top-level-await": "off",
     "unicorn/switch-case-braces": ["error", "avoid"]
   }
