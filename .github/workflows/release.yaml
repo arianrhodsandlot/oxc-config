@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: voidzero-dev/setup-vp@v1
-      - run: vpx -y @arianrhodsandlot/release-kit release-notes --version ${{ github.ref_name }}
+      - run: vpx @arianrhodsandlot/release-kit release-notes --version ${{ github.ref_name }}
       - run: vp pm version from-git -- --no-git-tag-version
       - run: vp pm publish --access=public
       - uses: softprops/action-gh-release@v3
