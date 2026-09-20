@@ -20,9 +20,13 @@ Then, extend the config in your oxlint or oxfmt configuration file.
     "extends": ["node_modules/@arianrhodsandlot/oxc-config/oxlintrc.json"]
   }
   ```
-- For oxfmt, as oxfmt does not support extending configuration files yet, we need to copy the config file directly:
-  ```sh
-  cp node_modules/@arianrhodsandlot/oxc-config/oxfmtrc.json .oxfmtrc.json
+  or a `oxlint.config.ts` with the following content:
+  ```ts
+  export { oxlintrc as default } from '@arianrhodsandlot/oxc-config'
+  ```
+- For oxfmt, create a `oxfmt.config.ts` with the following content:
+  ```ts
+  export { oxfmtrc as default } from '@arianrhodsandlot/oxc-config'
   ```
 
 ## License

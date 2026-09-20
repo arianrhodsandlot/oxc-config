@@ -24,20 +24,20 @@
   "type": "module",
   "module": "./index.js",
   "types": "./index.d.ts",
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "onFail": "download"
-    },
-    "packageManager": {
-      "name": "npm",
-      "onFail": "download"
-    }
-  },
   "exports": {
     ".": {
       "types": "./index.d.ts",
       "import": "./index.js"
+    }
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "download"
     }
   }
 }
